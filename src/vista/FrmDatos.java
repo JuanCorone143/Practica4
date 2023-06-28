@@ -220,7 +220,7 @@ public class FrmDatos extends javax.swing.JDialog {
     private void generarNumeros() {
         int cantidadNumeros = 20000;
         for (int i = 0; i < cantidadNumeros; i++) {
-            listaNumeros.insertarNodo((int) (Math.random() * 1000));
+            listaNumeros.insertarNodo((int) (Math.random() * 20000));
         }
     }
 
